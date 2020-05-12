@@ -5,8 +5,8 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "mono:pixelsize=14:antialias=true:autohint=true";
-static char *font2[] = { "JoyPixels:pixelsize=10:antialias=true:autohint=true" };
+static char *font = "Hack Nerd Font Mono:pixelsize=14:antialias=true:autohint=true";
+static char *font2[] = { "Hack Nerd Font Mono:pixelsize=12:antialias=true:autohint=true" };
 static int borderpx = 2;
 
 /*
@@ -218,8 +218,8 @@ ResourcePref resources[] = {
  */
 static MouseShortcut mshortcuts[] = {
 	/* button               mask            string */
-	{ Button4,              XK_NO_MOD,      "\031" },
-	{ Button5,              XK_NO_MOD,      "\005" },
+	/*{ Button4,              XK_NO_MOD,      "\031" },
+	{ Button5,              XK_NO_MOD,      "\005" },*/
 };
 
 /* Internal keyboard shortcuts. */
